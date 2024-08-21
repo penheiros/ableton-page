@@ -1,5 +1,6 @@
 import { useRef } from "react";
-import arrow from "../assets/arrow.svg";
+import arrow from "../../assets/arrow.svg";
+import './header.css'
 
 export default function Header() {
 	const navRef = useRef();
